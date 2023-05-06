@@ -14,8 +14,8 @@ const Header = () => {
                     <h2 className="dropdown dropdown-hover text-2xl font-semibold">
                         <label tabIndex={0} className="">My Skills </label>
                         <ul tabIndex={0} className="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52">
-                            <Link className='mt-3 mb-2'>Item 1</Link>
-                            <Link className='nt-3 mb-2'>Item 2</Link>
+                            <Link className='mt-3 mb-2' to='/skill1'>SKill 1</Link>
+                            <Link className='nt-3 mb-2' to='/skill1'>Skill 2</Link>
                         </ul>
                     </h2>
                     <h2 className='text-2xl font-semibold'><Link>Contact me</Link></h2>
